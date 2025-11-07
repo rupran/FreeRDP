@@ -23,7 +23,7 @@ else()
 
   set(SSO_MIB_URL https://github.com/siemens/sso-mib.git)
   set(SSO_MIB_VERSION_MAJOR 0)
-  set(SSO_MIB_VERSION_MINOR 5)
+  set(SSO_MIB_VERSION_MINOR 7)
   set(SSO_MIB_VERSION_PATCH 0)
   set(SSO_MIB_VERSION v${SSO_MIB_VERSION_MAJOR}.${SSO_MIB_VERSION_MINOR}.${SSO_MIB_VERSION_PATCH})
   message(STATUS "Adding sso-mib as ExternalProject from ${SSO_MIB_URL}, version ${SSO_MIB_VERSION}")
